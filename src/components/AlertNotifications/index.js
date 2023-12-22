@@ -8,8 +8,8 @@ import Notification from '../Notification'
 
 const AlertNotifications = () => (
   <div className="app-container">
-    <div>
-      <h1>Alert Notification</h1>
+    <div className="responsive-container">
+      <h1>Alert Notifications</h1>
       <Notification>
         <MdInfo className="info icon" />
         <div className="message-container">
